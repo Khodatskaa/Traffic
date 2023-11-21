@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{6ded5477-52e7-4f48-91c6-b00a2f939db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DTO">
+      <UniqueIdentifier>{d211d3c1-9c82-4fda-9f79-a17d5aabda3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DTO\ParcelDTO">
+      <UniqueIdentifier>{caec44f8-8002-4619-83f5-91dc0c2ef438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{898662af-dcd0-44c1-be2d-c2f942bbb853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Remote">
+      <UniqueIdentifier>{467d5dcf-992b-44f3-ba96-9a9e5b2570a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{12af0af6-3fc2-42b3-8591-ca14eb3e70b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{4e828bc6-67eb-44b8-b869-67b610f66f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain\Entities">
+      <UniqueIdentifier>{1288a95c-b85d-4c82-9b19-75a7175ab37e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Home">
+      <UniqueIdentifier>{1ecc9281-dd4e-45a7-a090-ecbae4a18ca9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParcelDTO.h">
+      <Filter>Core\DTO\ParcelDTO</Filter>
+    </ClInclude>
+    <ClInclude Include="EndPoint.h">
+      <Filter>Data\Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="Parcel.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpPoint.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Home.h">
+      <Filter>Home</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
