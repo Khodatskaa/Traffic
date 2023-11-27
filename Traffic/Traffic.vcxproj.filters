@@ -33,9 +33,6 @@
     <ClInclude Include="ParcelDTO.h">
       <Filter>Core\DTO\ParcelDTO</Filter>
     </ClInclude>
-    <ClInclude Include="EndPoint.h">
-      <Filter>Data\Remote</Filter>
-    </ClInclude>
     <ClInclude Include="Parcel.h">
       <Filter>Domain\Entities</Filter>
     </ClInclude>
@@ -45,16 +42,20 @@
     <ClInclude Include="Dealer.h">
       <Filter>Domain\Entities</Filter>
     </ClInclude>
-    <ClInclude Include="PickUpPoint.h">
-      <Filter>Domain\Entities</Filter>
-    </ClInclude>
     <ClInclude Include="Home.h">
       <Filter>Home</Filter>
+    </ClInclude>
+    <ClInclude Include="Barigha.h">
+      <Filter>Domain\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PickUpPoint.h">
+      <Filter>Domain\Entities</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
 </Project>
